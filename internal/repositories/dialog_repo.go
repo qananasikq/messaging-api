@@ -23,8 +23,6 @@ type CreateDialogParams struct {
 	ParticipantIDs []uuid.UUID
 }
 
-
-
 type DialogRepo struct {
 	db *pgxpool.Pool
 }
