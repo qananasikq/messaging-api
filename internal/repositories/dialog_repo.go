@@ -13,7 +13,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-/ defined globally.
+// defined globally.
 
 type CreateDialogParams struct {
 	ID             uuid.UUID
